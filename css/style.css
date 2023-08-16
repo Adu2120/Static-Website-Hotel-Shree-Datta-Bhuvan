@@ -477,6 +477,10 @@ ol.type li a:hover {
     	padding:0 6rem;
 		margin-top: 50px;
 	}
+	#menu{
+		margin: 0 !important;
+		background-color: #262626 !important;
+	}
 }
 .testimonial img{
     width: 6.2rem;

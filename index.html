@@ -43,6 +43,29 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyCeNt2CW36cVSc8SCHZN9XOz9IdbkHaywQ",
+      authDomain: "hotel-shree-datta-bhuvan.firebaseapp.com",
+      projectId: "hotel-shree-datta-bhuvan",
+      storageBucket: "hotel-shree-datta-bhuvan.appspot.com",
+      messagingSenderId: "515876125400",
+      appId: "1:515876125400:web:a9fb983baa493bf0f4b5ad",
+      measurementId: "G-FMM0ECEENY"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
